@@ -1,81 +1,81 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "410d1df1-ba7f-44f0-8e57-eeb26dc85883",
-    "feature": "Login page feature",
-    "scenario": "Login with correct credentials",
-    "start": 1667809774772,
+    "id": "748ad0ae-5cd0-49ff-9bdf-e8c735141be4",
+    "feature": "Dashboard feature",
+    "scenario": "Dashboard page title",
+    "start": 1667812240007,
     "group": 1,
     "content": "",
     "tags": "",
-    "end": 1667809779620,
+    "end": 1667812267005,
+    "className": "passed"
+  },
+  {
+    "id": "b7781a5b-76fe-4b80-9e22-ed6df498b39f",
+    "feature": "Login page feature",
+    "scenario": "Login with correct credentials",
+    "start": 1667812290836,
+    "group": 1,
+    "content": "",
+    "tags": "",
+    "end": 1667812295779,
     "className": "pending"
   },
   {
-    "id": "0febfc5f-7d23-4aa2-b1cd-74f16f6170eb",
-    "feature": "Gym details feature",
-    "scenario": "As a gym owner he/she should be able to add the gym details for first time",
-    "start": 1667809748279,
-    "group": 1,
-    "content": "",
-    "tags": "",
-    "end": 1667809754225,
-    "className": "undefined"
-  },
-  {
-    "id": "6d414ab4-4474-4cca-a990-c0b6b9aea8e5",
+    "id": "aab271c4-1dc0-4c9c-9959-b28526113b7e",
     "feature": "Login page feature",
     "scenario": "Login page title",
-    "start": 1667809766174,
+    "start": 1667812281970,
     "group": 1,
     "content": "",
     "tags": "",
-    "end": 1667809770179,
+    "end": 1667812285869,
     "className": "passed"
   },
   {
-    "id": "e98ed25d-7a83-4d6e-be49-f9c06bca042b",
-    "feature": "Dashboard feature",
-    "scenario": "Dashboard page title",
-    "start": 1667809708095,
-    "group": 1,
-    "content": "",
-    "tags": "",
-    "end": 1667809748252,
-    "className": "passed"
-  },
-  {
-    "id": "a8f8f4a2-b8c5-4cf3-b16d-1b07bb2a9d38",
-    "feature": "Gym details feature",
-    "scenario": "Gym profile picture can be added but this not mandatory",
-    "start": 1667809754234,
-    "group": 1,
-    "content": "",
-    "tags": "",
-    "end": 1667809760497,
-    "className": "undefined"
-  },
-  {
-    "id": "6839a2a8-0314-47b9-a57d-3e84254af114",
-    "feature": "Gym details feature",
-    "scenario": "As a gym owner once the details are added now i should only see the edit button",
-    "start": 1667809760509,
-    "group": 1,
-    "content": "",
-    "tags": "",
-    "end": 1667809766170,
-    "className": "undefined"
-  },
-  {
-    "id": "89f257a6-df09-4924-a480-f86110f1959b",
+    "id": "9698131f-016d-4bfc-bc11-ab817fefeb7c",
     "feature": "Login page feature",
     "scenario": "Forgot Password link",
-    "start": 1667809770184,
+    "start": 1667812285874,
     "group": 1,
     "content": "",
     "tags": "",
-    "end": 1667809774765,
+    "end": 1667812290832,
     "className": "passed"
+  },
+  {
+    "id": "79664c11-360f-4e87-ad8b-a2d343ded871",
+    "feature": "Gym details feature",
+    "scenario": "Gym profile picture can be added but this not mandatory",
+    "start": 1667812271751,
+    "group": 1,
+    "content": "",
+    "tags": "",
+    "end": 1667812276468,
+    "className": "undefined"
+  },
+  {
+    "id": "c88d46b2-9e29-40f2-96fe-e7df77c05101",
+    "feature": "Gym details feature",
+    "scenario": "As a gym owner he/she should be able to add the gym details for first time",
+    "start": 1667812267031,
+    "group": 1,
+    "content": "",
+    "tags": "",
+    "end": 1667812271742,
+    "className": "undefined"
+  },
+  {
+    "id": "1aea3cf0-817c-4a23-8377-7a0c49c3fbb5",
+    "feature": "Gym details feature",
+    "scenario": "As a gym owner once the details are added now i should only see the edit button",
+    "start": 1667812276479,
+    "group": 1,
+    "content": "",
+    "tags": "",
+    "end": 1667812281965,
+    "className": "undefined"
   }
 ]);
 CucumberHTML.timelineGroups.pushArray([
