@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: parallel.ParallelRun
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 134.083 s <<< FAILURE! - in parallel.ParallelRun
+runScenario(parallel.ParallelRun)  Time elapsed: 6.77 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step "finally click on List" is undefined. You can implement it using the snippet(s) below:
+
+@Then("finally click on List")
+public void finally_click_on_list() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+runScenario(parallel.ParallelRun)  Time elapsed: 6.35 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step "user will go to Contacts section" is undefined. You can implement it using the snippet(s) below:
+
+@Then("user will go to Contacts section")
+public void user_will_go_to_contacts_section() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+runScenario(parallel.ParallelRun)  Time elapsed: 3.631 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='email']"}
+  (Session info: headless chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-C3NVCIR', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Pratim\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50198}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 750fe6a5a4988968690c551650c6a7db
+*** Element info: {Using=xpath, value=//input[@name='email']}
+
