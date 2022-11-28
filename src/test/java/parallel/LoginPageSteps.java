@@ -1,7 +1,6 @@
 package parallel;
 
 import org.junit.Assert;
-
 import com.pages.LoginPage;
 import com.qa.factory.DriverFactory;
 
@@ -19,13 +18,10 @@ public class LoginPageSteps {
 	public void user_is_on_login_page() {
 	    // Write code here that turns the phrase above into concrete actions
 	    
-		DriverFactory.getDriver().get("https://www.redbeltgym.com");
+		DriverFactory.getDriver().get("https://www.redbeltgym.com/login");
         		
 		//throw new io.cucumber.java.PendingException();
 	}
-
-	
-	
 	
 	@When("user gets the title of the page")
 	public void user_gets_the_title_of_the_page() {
@@ -36,9 +32,6 @@ public class LoginPageSteps {
 		
 		//throw new io.cucumber.java.PendingException();
 	}
-
-	
-	
 	
 	@Then("login page title should be {string}")
 	public void login_page_title_should_be(String expectedTitleName) {
@@ -48,9 +41,6 @@ public class LoginPageSteps {
 		
 		//throw new io.cucumber.java.PendingException();
 	}
-
-	
-	
 	
 	@Then("forgot your password link should be displayed")
 	public void forgot_your_password_link_should_be_displayed() throws InterruptedException {
@@ -59,9 +49,7 @@ public class LoginPageSteps {
 		loginPage.isForgotPwdLinkExist();
 		
 		//throw new io.cucumber.java.PendingException();
-	}
-
-	
+	}	
 	
 	@When("user enters username {string}")
 	public void user_enters_username(String username) throws InterruptedException {
@@ -73,8 +61,6 @@ public class LoginPageSteps {
 		//throw new io.cucumber.java.PendingException();
 	}
 
-	
-	
 	@When("user enters password {string}")
 	public void user_enters_password(String password) {
 	    // Write code here that turns the phrase above into concrete actions
@@ -82,10 +68,7 @@ public class LoginPageSteps {
 		loginPage.enterPassword(password);
 		
 		//throw new io.cucumber.java.PendingException();
-	}
-
-	
-	
+	}	
 	
 	@When("user clicks on Login button")
 	public void user_clicks_on_login_button() {
@@ -95,8 +78,5 @@ public class LoginPageSteps {
 		
 		//throw new io.cucumber.java.PendingException();
 	}
-
-	
-
 	
 }
